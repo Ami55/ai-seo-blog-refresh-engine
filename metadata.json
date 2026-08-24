@@ -1,0 +1,6 @@
+{
+  "name": "TravelSEO Refresher",
+  "description": "AI-powered semantic SEO audit and travel blog refresh engine by TravelSEO Refresher Inc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
