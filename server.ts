@@ -623,13 +623,13 @@ Escape the tourist crowds with these lesser-known local favorites:
 
 While guidebooks and digital maps provide basic directions, exploring ${destination} alongside a certified, passionate private local guide transforms a simple vacation into an unforgettable story.
 
-> 🌟 **The ToursByLocals Advantage:**
+> 🌟 **The Private Guide Experience:**
 > - **100% Customized Itineraries:** Your guide tailors every hour to your personal pace, interests, mobility needs, and culinary preferences.
 > - **Skip-the-Line Priority:** Enjoy seamless navigation through major landmarks without wasting precious vacation hours in ticket lines.
 > - **Authentic Human Connection:** Discover real neighborhood stories, personal family recipes, and cultural context that no static guidebook can convey.
 > - **Flexibility on the Fly:** Craving a spontaneous gelato stop or want to spend an extra 30 minutes admiring a specific masterpiece? Your private guide adapts effortlessly.
 
-[Explore Verified Private Tours in ${destination} on ToursByLocals](https://www.toursbylocals.com/)
+Compare private tours in ${destination}, and verify guide credentials and booking terms before reserving.
 
 ---
 
@@ -650,7 +650,7 @@ ${(recs.faqIdeas || []).map((faq: any, idx: number) => `### Q${idx + 1}: ${faq.q
 ## Final Pre-Departure Checklist for ${destination}
 
 - [ ] **Book Landmark Tickets 3–4 Weeks Ahead:** Secure timed-entry slots for iconic museums and archaeological parks.
-- [ ] **Reserve a Private Local Tour:** Connect with a verified guide on [ToursByLocals](https://www.toursbylocals.com/) for custom insider exploration.
+- [ ] **Reserve a Private Local Tour:** Compare local guide options and verify credentials before booking.
 - [ ] **Pack Comfortable Footwear:** Cobblestone streets require supportive walking shoes or cushioned sneakers.
 - [ ] **Download Offline Maps:** Save offline Google Maps and local transit apps to your smartphone.
 - [ ] **Prepare Plug Adapters:** Check regional voltage and socket types (Type C/F/G depending on the country).
@@ -658,7 +658,7 @@ ${(recs.faqIdeas || []).map((faq: any, idx: number) => `### Q${idx + 1}: ${faq.q
 
 ---
 
-*Published by ToursByLocals Editorial Travel Team. Reviewed and updated for the ${currentYear} travel season.*
+*Draft for the ${currentYear} travel season. Editorial review and fact-checking required.*
 `;
 
   return {
@@ -887,7 +887,7 @@ STRUCTURE MANDATES FOR THE REWRITE (WRITE FULL, DETAILED PARAGRAPHS — NO BRIEF
 6. The Ultimate Food & Drink Guide (6 must-try authentic regional dishes, traditional meal timings, coffee/aperitivo culture, and tipping customs).
 7. Essential Travel Logistics & Transport Masterclass (airport express links, metro/tram tap-and-go contactless payment, city passes, and eSIM connectivity).
 8. 5 Off-the-Beaten-Path Hidden Gems Only Local Guides Know (secret courtyards, panoramic overlooks, artisan alleys).
-9. Why Booking a Customized Private Tour with a Licensed Local Guide on ToursByLocals Elevates the Trip (100% customized, skip-the-line, authentic storytelling).
+9. Why Booking a Customized Private Tour with a Licensed Local Guide Elevates the Trip (100% customized, skip-the-line, authentic storytelling).
 10. Dedicated 8-Question Frequently Asked Questions (FAQ) section in markdown with formatted Q&A accordions.
 11. Final Pre-Departure Checklist for Travelers.
 

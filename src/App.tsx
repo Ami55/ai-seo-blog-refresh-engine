@@ -28,9 +28,9 @@ export default function App() {
     const defaultData: BlogItem[] = [
       {
         id: 'default-1',
-        url: 'https://www.toursbylocals.com/Rome-Tours',
+        url: 'https://example.com/Rome-Tours',
         targetKeyword: 'private local tour guide rome',
-        currentTitle: 'ToursByLocals | Private Tour Guides & Rome Day Excursions',
+        currentTitle: 'Example Travel | Private Tour Guides & Rome Day Excursions',
         pageType: 'Destination Guide',
         status: 'Analyzed',
         pageContent: 'Connect with a private local guide in Rome. Customize private walking tours of the Colosseum, Vatican museums, hidden piazzas, and high-quality local-expert style itineraries...',
@@ -39,18 +39,18 @@ export default function App() {
           missingTopics: ['Vatican audio-guide vs certified personal guide', 'Custom accessible senior citizen Rome routes', 'Kid-friendly scavenger hunts in Rome'],
           missingEntities: ['Colosseum', 'Vatican Museums', 'St. Peter\'s Basilica', 'Borghese Gallery', 'Private Mercedes Minivan tour'],
           faqIdeas: [
-            { question: 'Can I customize my Rome tour itinerary?', answer: 'Yes! All ToursByLocals Rome itineraries are 100% customizable. You can request changes directly by messaging the guide.' },
+            { question: 'Can I customize my Rome tour itinerary?', answer: 'Yes! All Example Travel Rome itineraries are 100% customizable. You can request changes directly by messaging the guide.' },
             { question: 'Is transport included in Rome customizable tours?', answer: 'Some local guides include private vehicles with licensed driver credentials, while others conduct historical walking tours with optional taxi transfers.' }
           ],
           internalLinks: ['Link to Italy Destination Guide', 'Link to Vatican certified guides category page'],
           freshnessIssues: 'Citing outdated museum ticketing booking window periods. Needs update to reflect current-year regulations.',
-          improvedMetaTitle: 'Top Rated Private Tour Guides in Rome | Custom ToursByLocals',
+          improvedMetaTitle: 'Top Rated Private Tour Guides in Rome | Custom Example Travel',
           improvedMetaDescription: 'Experience Rome like a local. Book custom private tours of the Colosseum, Vatican, and hidden spots with certified local guides tailored to your pace.',
           priorityScore: 9,
           recommendedAction: 'Enhance E-E-A-T badges with individual guide certificates & add interactive FAQ schema.'
         },
         fullRewrite: {
-          rewrittenMarkdown: `# Top Rated Private Tour Guides in Rome | Custom ToursByLocals
+          rewrittenMarkdown: `# Top Rated Private Tour Guides in Rome | Custom Example Travel
 
 > **Meta Description:** *Experience Rome like a local. Book custom private tours of the Colosseum, Vatican, and hidden spots with certified local guides tailored to your pace.*
 >
@@ -138,19 +138,19 @@ No trip to Rome is complete without understanding the sacred quartet of Roman pa
 
 ## Why Booking a Private Local Guide Elevates Your Roman Journey
 
-Exploring Rome alongside a certified, passionate private local guide on **ToursByLocals** transforms your vacation:
+Exploring Rome alongside a certified, passionate private local guide on **Example Travel** transforms your vacation:
 - **100% Customized Itineraries:** Walk at your own pace with breaks tailored to your group.
 - **Skip-the-Line Access:** Bypass 2-hour queues at the Colosseum and Vatican.
 - **Insider Secrets:** Uncover hidden courtyards, subterranean Roman ruins, and secret rooftops inaccessible to large bus tours.
 
-[Explore Verified Private Tours in Rome on ToursByLocals](https://www.toursbylocals.com/Rome-Tours)
+[Explore Verified Private Tours in Rome on Example Travel](https://example.com/Rome-Tours)
 
 ---
 
 ## Frequently Asked Questions (FAQ)
 
 ### Q1: Can I customize my Rome tour itinerary?
-**A:** Yes! All ToursByLocals Rome itineraries are 100% customizable. You can request custom routes, dietary stops, and private transport directly with your guide.
+**A:** Yes! All Example Travel Rome itineraries are 100% customizable. You can request custom routes, dietary stops, and private transport directly with your guide.
 
 ### Q2: Is public transport easy to use in Rome?
 **A:** Yes. Rome's Metro (Lines A and B) and city buses support contactless tap-and-go credit cards at all turnstiles. For historic center sights, walking is often the fastest and most scenic option.
@@ -160,7 +160,7 @@ Exploring Rome alongside a certified, passionate private local guide on **ToursB
 
 ---
 
-*Published by ToursByLocals Editorial Travel Team. Reviewed and updated for the 2026 travel season.*
+*Published by Example Travel Editorial Travel Team. Reviewed and updated for the 2026 travel season.*
 `,
           wordCount: 2650,
           readingTimeMinutes: 13,
@@ -178,7 +178,7 @@ Exploring Rome alongside a certified, passionate private local guide on **ToursB
       },
       {
         id: 'default-2',
-        url: 'https://www.toursbylocals.com/Tokyo-Tours',
+        url: 'https://example.com/Tokyo-Tours',
         targetKeyword: 'personalized private guide tokyo',
         currentTitle: 'Tokyo Tours | Explore Japan with Private Local Tour Guides',
         pageType: 'Category Page',
@@ -250,7 +250,7 @@ Exploring Rome alongside a certified, passionate private local guide on **ToursB
   const handleAddNewRow = () => {
     const newRow: BlogItem = {
       id: 'item-' + Math.random().toString(36).substr(2, 9),
-      url: 'https://www.toursbylocals.com/',
+      url: 'https://example.com/',
       targetKeyword: 'private local tour guide',
       currentTitle: 'Custom Destination Page',
       pageType: 'Destination Guide',
@@ -816,7 +816,7 @@ Exploring Rome alongside a certified, passionate private local guide on **ToursB
         onClose={() => setIsHowItWorksOpen(false)}
         onQuickStart={() => {
           if (items.length === 0) {
-            handleQuickAddUrl('https://www.toursbylocals.com/Rome-Tours');
+            handleQuickAddUrl('https://example.com/Rome-Tours');
           }
         }}
       />
