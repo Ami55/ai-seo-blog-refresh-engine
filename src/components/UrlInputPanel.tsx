@@ -73,9 +73,9 @@ export default function UrlInputPanel({ onAddUrls, onUploadCsv, isLoading }: Url
 
   const loadDemoBlogs = () => {
     const demoUrls = [
-      'https://www.toursbylocals.com/Rome-Tours',
-      'https://www.toursbylocals.com/Paris-Tours',
-      'https://www.toursbylocals.com/Tokyo-Tours',
+      'https://example.com/Rome-Tours',
+      'https://example.com/Paris-Tours',
+      'https://example.com/Tokyo-Tours',
     ];
     processAndAdd(demoUrls, 'private local tour guide', 'Destination Guide');
   };
@@ -102,7 +102,7 @@ export default function UrlInputPanel({ onAddUrls, onUploadCsv, isLoading }: Url
             className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 transition-colors bg-indigo-50 hover:bg-indigo-100/80 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-pointer border border-indigo-100"
           >
             <Wand2 className="w-3.5 h-3.5" />
-            Load Sample ToursByLocals URLs
+            Load Fictional Sample URLs
           </button>
         </div>
       </div>
@@ -186,7 +186,7 @@ export default function UrlInputPanel({ onAddUrls, onUploadCsv, isLoading }: Url
                 value={singleUrl}
                 onChange={(e) => setSingleUrl(e.target.value)}
                 disabled={isLoading}
-                placeholder="e.g. https://www.toursbylocals.com/Barcelona-Tours"
+                placeholder="e.g. https://example.com/Barcelona-Tours"
                 className="w-full text-sm px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all text-slate-800 placeholder-slate-400 font-mono"
                 required
               />
@@ -230,7 +230,7 @@ export default function UrlInputPanel({ onAddUrls, onUploadCsv, isLoading }: Url
 
           <div className="flex items-center justify-between pt-1">
             <span className="text-xs text-slate-500">
-              💡 Tip: You can paste full URLs or bare domains (e.g. <span className="font-mono text-[11px]">toursbylocals.com/Tokyo-Tours</span>). Press Enter or click Add.
+              💡 Tip: You can paste full URLs or bare domains (e.g. <span className="font-mono text-[11px]">example.com/Tokyo-Tours</span>). Press Enter or click Add.
             </span>
 
             <button
@@ -258,7 +258,7 @@ export default function UrlInputPanel({ onAddUrls, onUploadCsv, isLoading }: Url
               value={bulkText}
               onChange={(e) => setBulkText(e.target.value)}
               disabled={isLoading}
-              placeholder="https://www.toursbylocals.com/Florence-Tours&#10;https://www.toursbylocals.com/Venice-Tours&#10;https://www.toursbylocals.com/Athens-Tours"
+              placeholder="https://example.com/Florence-Tours&#10;https://example.com/Venice-Tours&#10;https://example.com/Athens-Tours"
               className="w-full text-sm font-mono p-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all text-slate-800 placeholder-slate-400"
               required
             />
