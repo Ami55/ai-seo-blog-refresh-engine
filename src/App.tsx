@@ -825,7 +825,7 @@ Exploring Rome alongside a certified, passionate private local guide on **Exampl
       <footer className="bg-white border-t border-slate-200 py-6 text-xs text-slate-500 mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <p className="font-normal text-slate-600">
-            © 2026 TravelSEO Refresher Inc. Developed by Ami - SEO Girl. All rights reserved.
+            © 2026 TravelSEO Refresher. Developed by <strong>SEO Girl - Ami</strong>. All rights reserved.
           </p>
           <div className="flex items-center justify-center gap-3 text-xs">
             <button
